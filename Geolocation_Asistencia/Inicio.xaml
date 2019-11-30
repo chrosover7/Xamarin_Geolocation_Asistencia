@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LocalDatabaseSample.Inicio"
+             BackgroundImageSource="@drawable/fondo3">
+   
+    
+    <Grid Margin="40">
+        <Image Source="http://appandabout.es/wp-content/uploads/2014/04/fondo-degradado.jpg"
+                    Aspect="AspectFill"/>
+  
+        <Grid Padding="30,20">
+            <Grid>
+               
+                <Image Source="user" />
+                
+                <StackLayout Grid.Row="2" Grid.Column="0" >
+                    <Button 
+                        x:Name="btn_reistrar"
+                        Text="Registrar Asistencias" 
+                        TextColor="White" 
+                        BorderRadius="20" 
+                        FontSize="Medium"
+                        BackgroundColor="Blue"
+                        FontAttributes="Bold"
+                        Clicked="btn_reistrar_Clicked">
+                    </Button>
+                    <Button
+                        x:Name="btn_verRegistros"
+                        Text="Ver Asistencias" 
+                        TextColor="White" 
+                        BorderRadius="20" 
+                        FontSize="Medium"
+                        BackgroundColor="Blue"
+                        FontAttributes="Bold"
+                        Clicked="btn_verRegistros_Clicked">
+                    </Button>
+
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

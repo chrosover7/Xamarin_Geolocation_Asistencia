@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LocalDatabaseSample.ReportEmpleados"
+             BackgroundImageSource="@drawable/fondo4">
+    <StackLayout>
+        <ListView x:Name="ContactListView" 
+                      BackgroundColor="Black"
+                      SelectionMode="None" 
+                      Footer="" 
+                       Opacity="0.7">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" Margin="0,10">
+                            <Label  Text="{Binding tipo}"  FontSize="10" TextColor="White"/>
+                            <Label  Text="{Binding Name}"      FontSize="10" TextColor="White"/>
+                            <Label  Text="{Binding LastName}"  FontSize="10" TextColor="White"/>
+                            <Label  Text="{Binding hora_fecha}"  FontSize="10" TextColor="White"/>
+                            <Label  Text="{Binding ubicacion}" FontSize="10" TextColor="White"/>
+                            <Label  Text="{Binding latitud}" FontSize="10"  TextColor="White"/>
+                            <Label  Text="{Binding longitud}" FontSize="10" TextColor="White"/>
+                            <Label  Text="{Binding DNI}" FontSize="10" TextColor="White"/>
+
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

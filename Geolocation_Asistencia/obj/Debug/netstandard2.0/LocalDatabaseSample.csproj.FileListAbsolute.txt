@@ -1,0 +1,13 @@
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\bin\Debug\netstandard2.0\LocalDatabaseSample.deps.json
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\bin\Debug\netstandard2.0\LocalDatabaseSample.dll
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\bin\Debug\netstandard2.0\LocalDatabaseSample.pdb
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\LocalDatabaseSample.csprojAssemblyReference.cache
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\LocalDatabaseSample.AssemblyInfoInputs.cache
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\LocalDatabaseSample.AssemblyInfo.cs
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\LocalDatabaseSample.dll
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\LocalDatabaseSample.pdb
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\Inicio.xaml.g.cs
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\ReportEmpleados.xaml.g.cs
+C:\LocalDatabaseSample-master\LocalDatabaseSample-master\LocalDatabaseSample\obj\Debug\netstandard2.0\XamlC.stamp

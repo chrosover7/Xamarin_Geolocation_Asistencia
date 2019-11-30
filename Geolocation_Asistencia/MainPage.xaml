@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:LocalDatabaseSample" 
+             x:Class="LocalDatabaseSample.MainPage"
+             xmlns:Behaviors="clr-namespace:LocalDatabaseSample.Behaviors"
+            BackgroundImageSource="@drawable/fondo3">
+    <ScrollView>
+ <StackLayout Margin="40">
+
+            <Label Text="Asistencia" FontSize="30" FontAttributes="Bold" TextColor="#0061a9" VerticalOptions="Center" HorizontalOptions="Center" Margin="20"/>
+            <Image Source="asistencia" />
+
+            <Label Text="Nombres" TextColor="#0061a9" />
+            <Entry x:Name="Name"  Placeholder="Nombres del empleado" />
+
+            <Label Text="Apellidos" TextColor="#0061a9"  />
+            <Entry x:Name="LastName" Placeholder="Apellidos del Empleado" />
+
+            <Label Text="DNI" TextColor="#0061a9" />
+            <Entry x:Name="Telephone" Keyboard="Numeric" Placeholder="DNI del empleado" >
+               
+            </Entry>
+            <Label Text="Latitud:" TextColor="#0061a9"  />
+            <Label x:Name="lat"   />
+            <Label Text="Longitud:"  TextColor="#0061a9" />
+            <Label x:Name="lon"   />
+     
+            <StackLayout Grid.Row="3" Grid.Column="0" >
+            <Button x:Name="btnEntrada" Text="Registrar Entrada" HorizontalOptions="FillAndExpand" BackgroundColor="#1690F4" TextColor="White"   BorderRadius="20"  Clicked="OnButtonClicked" />
+            <Button x:Name="btnsalida" Text="Registrar Salida" HorizontalOptions="FillAndExpand" BackgroundColor="#1690F4" TextColor="White"  BorderRadius="20"  Clicked="btnsalida_Clicked"/>
+                <Button x:Name="btnmapa" Text="Ver mapa" HorizontalOptions="FillAndExpand" BackgroundColor="#1690F4" TextColor="White"  BorderRadius="20"  Clicked="btnmapa_Clicked"/>
+            </StackLayout>
+           
+    </StackLayout>
+    </ScrollView>
+</ContentPage>         
